@@ -395,7 +395,7 @@ body {
 
 .main-part__news {
   padding-top: 40px;
-  padding-bottom: 40px;
+  padding-bottom: 0;
 }
 
 .main-part__news-block {
