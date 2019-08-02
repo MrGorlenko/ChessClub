@@ -1,0 +1,45 @@
+.main
+  &-part 
+    &__about
+      &-block 
+        display: block
+      &-subtitle 
+        font-size: 22px
+        font-weight: 400
+        color: #293545
+        font-family: helvetica
+        text-align: start
+      &-text 
+        text-align: justify
+        font-size: 16px
+        font-weight: 400
+        color: #293545
+        font-family: arial 
+      &-image 
+        width: 60%
+        height: min-intrinsic
+        margin: auto 
+        @media screen and(max-width: 376px)
+          width: 100%
+          height: auto 
+        &-block 
+          display: flex 
+    &__couch
+      &-block 
+        display: block
+        align-items: center
+      &-title 
+        text-align: justify
+        font-size: 22px
+        font-weight: 300
+        color: #293545
+        font-family: helvetica 
+      &-text 
+        text-align: justify
+        font-size: 16px
+        font-weight: 400
+        color: #293545
+        font-family: arial 
+      &-image 
+        width: 100% 
+        height: min-intrinsic

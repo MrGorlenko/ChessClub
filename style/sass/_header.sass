@@ -1,0 +1,106 @@
+.header
+  width: 100%
+  background: url(../../img/header-background.png) repeat-x center bottom
+  background-size: cover
+  &-column 
+    &-block 
+      text-align: center
+    &-link 
+      &-left 
+        @media screen and (max-width: 767px)
+          text-align: start
+      &-right 
+        @media screen and (max-width: 767px)
+          text-align: end 
+  &__link
+    &-about 
+      @media screen and (max-width: 768px)
+        padding-right: 56px
+      @media screen and (max-width: 573px)
+        padding-right: 0
+  &-link
+    font-size: 18px
+    color: #293545
+    text-decoration: none  
+    &:hover
+      text-decoration: none 
+      color: #293545
+  &-row-1 
+    margin-top: 6%
+    justify-content: space-around
+    margin: auto
+    display: flex
+    &-column 
+      &-block 
+        flex-direction: column
+        padding: initial
+        display: flex
+      &-link 
+        padding-left: 27%
+  &-title 
+    &-block
+      justify-content: center
+      display: flex
+      text-align: center
+      font-size: 36px
+      font-weight: 400
+      color: #293545
+      @media screen and (max-width: 320px)
+        font-size: 160%
+  &-subtitle
+    &-block 
+      display: flex
+      justify-content: center
+      font-size: 28px
+      font-weight: 400
+      color: #293545
+    &-text 
+      @media screen and (max-width: 320px)
+        margin-top: 
+        font-size: 28px
+      
+
+
+
+.logo
+    &-block
+      display: flex
+      justify-content: center
+    &-img
+      height: min-intrinsic
+      @media screen and (min-width: 1280px)
+        width: 20%
+      @media screen and (max-width: 1280px)
+        width: 20%
+      @media screen and (max-width: 1024px)
+        width: 26%
+      @media screen and (max-width: 800px)
+        width: 60% 
+        margin-top: 5px
+      @media screen and (max-width: 415px)
+        width: 60% 
+        margin-top: 25px
+      @media screen and (max-width: 376px)
+        margin-top: 0px
+        width: 75% 
+      @media screen and (max-width: 361px)
+        margin-top: 25px
+        width: 75% 
+      @media screen and (max-width: 320px)
+        margin-top: 25px
+      
+        
+
+.tagline
+  &-block 
+    display: flex
+    justify-content: center 
+    margin-top: 
+  &-text 
+    font-weight: 600
+    font-size: 16px  
+    color: #293545
+    @media screen and (max-width: 321px)
+      margin-top: 
+      font-size: 13px
+    
