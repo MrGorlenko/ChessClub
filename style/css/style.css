@@ -422,11 +422,27 @@ body {
   margin: auto;
   height: min-intrinsic;
   width: 555px;
+  height: 347px;
 }
 
-@media screen and (max-width: 770px) {
+@media screen and (max-width: 773px) {
   .main-part__news-image {
-    width: 400px;
+    width: 465px;
+    height: 300px;
+  }
+}
+
+@media screen and (max-width: 513px) {
+  .main-part__news-image {
+    width: 300px;
+    height: 200px;
+  }
+}
+
+@media screen and (max-width: 355px) {
+  .main-part__news-image {
+    width: 250px;
+    height: 190px;
   }
 }
 
